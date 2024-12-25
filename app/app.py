@@ -82,7 +82,7 @@ if st.button("Analyze Sentiment"):
 st.markdown(
     """
     <div style='text-align: center; color: #555555; font-size: 12px;'>
-        <p>Created with ❤️ by Your Name</p>
+        <p>Created with Sayed Abdalsamie</p>
     </div>
 """,
     unsafe_allow_html=True,
