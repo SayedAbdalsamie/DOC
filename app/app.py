@@ -9,8 +9,10 @@ from pathlib import Path
 # Function to load models and vectorizers
 def load_model():
     # Load the model and vectorizer
-    model = pickle.load(open("models/model.pkl", "rb"))  # Use forward slashes for paths
-    vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
+    model = pickle.load(
+        open("/mount/src/doc/app/models/model.pkl", "rb")
+    )  # Use forward slashes for paths
+    vectorizer = pickle.load(open("/mount/src/doc/app/models/vectorizer.pkl", "rb"))
     return model, vectorizer
 
 
